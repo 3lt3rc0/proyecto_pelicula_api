@@ -1,0 +1,97 @@
+.bodyRegistrarse{
+    height: 100vh;
+    background:linear-gradient(to right top, #24242473,#24242473),url("https://media.ambito.com/p/776b7ce6c3fb2feeaa0da25fbcf9f9e4/adjuntos/239/imagenes/039/564/0039564419/cine-pochoclosjpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.headerRegistrarse{
+    color:#ffffff;
+    height: 8vh;
+    padding:30px;
+}
+
+.anclaLogo{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/*animacion hover*/
+.anclaLogo:hover{
+    animation: tilt-n-move-shaking 0.25s infinite;
+}
+ 
+
+/*seccion de registrarse.html*/
+
+.seccionRegistrarse{
+    background-color: transparent;
+    border: 2px rgb(255, 255, 255) solid;
+    width: 30%;
+    margin:0 auto;
+    border-radius: 15px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size:1.2rem;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.tituloRegistrarse{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+            
+/*seleccionar todos los input menos el checkbox*/
+form{
+    width: 100%;
+    padding:40px;
+}
+
+input:not(.check,.boton),select{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    color:rgb(255, 255, 255);
+}
+                
+                    
+.boton{
+    width: 87%;
+    box-sizing: content-box;
+    background-color:transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+                   
+}
+.boton:hover{
+    background-color: dimgrey;
+}
+                
+.ayuda{
+    margin-top:40px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:400;
+                   
+}

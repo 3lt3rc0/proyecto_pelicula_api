@@ -1,0 +1,206 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+main {
+   padding-bottom:  10px;
+    
+  
+}
+.sectionPrincipal {
+    color: white;
+    background: linear-gradient(to right top, #0000008a, #0000008a), url(https://st.depositphotos.com/2288675/2452/i/600/depositphotos_24522273-stock-photo-watching-tv.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tituloPrincipal{
+    color:rgb(14, 13, 14);
+   font-family:monospace;
+   font-size: 500%;
+   margin-top: 10%;
+   text-shadow: 10px 10px 15px;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(0, 0, 0);
+
+}
+.subtituloPrincipal{
+    color:rgb(9, 8, 8);
+    font-family:inherit;
+    padding-bottom: 7%;
+    text-shadow: 10px 10px 15px;
+    -webkit-text-fill-color: solid;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.botonRegistrarse{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: 3px solid #ff0000;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0%;
+    &:hover {
+        background-color: #ff0000;
+        color: rgb(255, 255, 255);
+    }
+}
+.flex-container{
+    display: flex;
+    
+    flex-direction: row
+}
+
+.movie {
+    color: white;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.movie img {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 300px;
+    margin: 0 auto 15px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Estilos para el formulario */
+#register-form {
+    max-width: 400px;
+    margin: 20px auto;
+
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#register-form h2 {
+    margin-top: 0;
+}
+
+#register-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: 3px solid #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#register-form button:hover {
+    background-color: #ff0000;
+}
+
+/* Estilos para la navegación */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #28bfc273;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+   
+    color: rgb(255, 0, 0);
+    
+    
+}
+
+.iniciarSesion{
+        
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 3px solid #ff0000;
+    border-radius: 5%;
+    padding: 1rem 1rem;
+     /* Agregar efecto de botón presionado */
+     transition: transform 0.3s, box-shadow 0.3s;
+     &:hover {
+         background-color: #ff0000;
+         color: rgb(255, 255, 255);
+        /* transform: scale(0.95);
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
+     }
+}
+section {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right top, #0000008a, #0000008a), url(https://www.lanacion.com.ar/stories/lifestyle/cinco-mejores-peliculas-romanticas-de-la-historia/assets/2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+
+

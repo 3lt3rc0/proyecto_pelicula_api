@@ -1,0 +1,127 @@
+
+.bodyRegistrarse{
+    height: 100vh;
+    background:linear-gradient(to right top, #b4a99373,#94a19673),url("https://media.es.wired.com/photos/631f49cb64fe55a038bdc9ce/1:1/w_1996,h_1997,c_limit/hombre_en_cine_163296576.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*seccion de registrarse*/
+.seccionRegistrarse{
+    background-color:transparent;
+    width: 30%;
+        
+    margin:0 auto;
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+            
+    height: 90vh;
+    
+    font-size:1.2rem;
+}
+
+.tituloRegistrarse{
+    display: flex;
+    justify-content: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Georgia;
+    margin-bottom: 20px;
+}
+       
+/*seleccionar todos los input menos el checkbox*/
+form{
+    width: 80%;
+    color: #000000;
+    padding:40px;
+}
+
+.textoDentro{
+    -webkit-text-fill-color: #000000;
+}
+
+input:not(.check,.boton),select{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    color: #000000;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    background-color:transparent;
+    outline: none;
+    
+}
+
+.error input:not(.check,.boton),.error select{
+    border: 1px solid #ff0000;
+}
+.error-text{
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+              
+.terminos{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.textoCheck{
+    margin-left: 10px;
+                        
+}
+
+.botonRegistrarse{
+    background-color: transparent;
+    color: #000000;
+    padding: 1rem 2rem;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0%;
+}
+
+.botonRegistrarse:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.ayuda{
+    display: flex;
+    justify-content: end;
+    margin-top:10px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight:400;                  
+}
+.ayuda:hover{
+    color: blue;
+}
+            
+.anclaLogo{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.anclaLogo:hover{
+    color: blue
+}
